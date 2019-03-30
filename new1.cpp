@@ -1,14 +1,15 @@
 #include <iostream>
 #include <cmath>
+#define MAX 100
 using namespace std;
 int main(){
-	int i=1;
+    int B[max];
+    int F[max];
+    int N[max];
+	int b=1,n=1,f=1;
+
 	while(i<101){
-		if((i % 15 )==0) cout<<"FizzBuzz; ";
-		else if((i % 3 )==0) cout<<"Fizz; ";
-		else if((i % 5 )==0) cout<<"Buzz; ";
-		else cout<<i<<"; ";
-	i++;
+
 	}
 
 
